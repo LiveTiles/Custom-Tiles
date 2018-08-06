@@ -1,9 +1,10 @@
-Custom Clock Tile
+Horizontal Links Tile
 ==============================
 This simple tile demonstrates the following:
 
-1) A tile that displays three time zones by clicking on the Time zone text
-2) 6 Custom Config options - 3 for Location Titles - 3 for Time Zones (Third Time Zone doesn't display)
+1) A list of code related lists, JSFiddle, Codepen, Stack Overflow
+2) A button to add additional buttons to the list
+
 
 Loading the Tile
 ----------------------------------
@@ -13,5 +14,7 @@ The provided JSON file is an exported page. To load it:
 2) Click "Create"
 3) Click "Import Page"
 4) Click "Choose File"
-5) In the open file dialog, select the "Custom Clock.json" file
+5) In the open file dialog, select the "Horizontal Links.json" file
 5) Confirm with "OK"
+
+A responsive page with a single row, column, and tile should load - showing the current O365 user's information.

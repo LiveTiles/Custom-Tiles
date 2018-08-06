@@ -1,12 +1,13 @@
-Custom Tabs Tile
+Custom Search Tiles
 ==============================
 This simple tile is set up by the following:
 
-1) The Custom Tabs Tile requires 7 Content Rows and 1 row for the Custom Tab Tile
-2) The Tile is connected to the custom classes: "tab_1","tab_2","tab_3","tab_4","tab_5","tab_6",and "tab_7"
-3) Each Content Row needs to be assigned one of the 7 custom classes
-4) Add the custom class: "current" to the Content Row you'd like to display as default
-
+1) The Custom Search Tiles use 2 Code Snippet tiles and 1 Custom Tile.
+2) Place the three tiles on the page.
+3) The Custom Tile is the search input
+4) The 2 Code Snippet Tiles display the search results
+5) 1 Code Snippet Tile returns search results for files
+6) 1 Code Snippet Tile returns search results for people
 
 Loading the Tile
 ----------------------------------
@@ -16,7 +17,7 @@ The provided JSON file is an exported page. To load it:
 2) Click "Create"
 3) Click "Import Page"
 4) Click "Choose File"
-5) In the open file dialog, select the "Custom Tabs Tile.json" file
+5) In the open file dialog, select the "Custom Search Tiles.json" file
 5) Confirm with "OK"
 
 A responsive page with a single row, column, and tile should load
